@@ -42,7 +42,7 @@ sections:
 
         /* Responsive - mobile */
         @media (max-width: 600px) {
-          .bio-container { flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; }
+          .bio-container { flex-direction: column; align-items: center; text-align: center; padding: 0.5rem 1rem 1.5rem 1rem; }
           .bio-buttons { justify-content: center; }
         }
 
@@ -128,7 +128,7 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ["2rem", "0", "0", "0"]
+        padding: ["1rem", "0", "0", "0"]
 
   - block: markdown
     id: research
