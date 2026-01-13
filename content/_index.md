@@ -117,7 +117,7 @@ sections:
               <p>My research interests include entrepreneurship, financial intermediation, corporate finance, and insurance.</p>
             </div>
             <div class="bio-buttons">
-              <a href="/uploads/cv.pdf" class="bio-btn">Download CV</a>
+              <a href="/uploads/cv.pdf" class="bio-btn" target="_blank" rel="noopener noreferrer">Download CV</a>
             </div>
             <div class="bio-contact">
               Contact: <a href="mailto:vlyonnet@umich.edu">vlyonnet@umich.edu</a>
@@ -142,7 +142,7 @@ sections:
         <div class="subsection-header">Publications</div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228">Why do Traditional and Shadow Banks Coexist?</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228" target="_blank" rel="noopener noreferrer">Why do Traditional and Shadow Banks Coexist?</a></div>
         <div class="paper-authors">with Edouard Chrétien</div>
         <div class="paper-venue">Review of Financial Studies <span class="venue-status">(forthcoming)</span></div>
         <details>
@@ -152,12 +152,12 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhaf004/7965908">Build or Buy? Human Capital and Corporate Diversification</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhaf004/7965908" target="_blank" rel="noopener noreferrer">Build or Buy? Human Capital and Corporate Diversification</a></div>
         <div class="paper-authors">with Paul Beaumont and Camille Hébert</div>
         <div class="paper-venue">Review of Financial Studies, 2025</div>
         <div class="paper-links">
-        <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/38/5/10.1093_rfs_hhaf004/3/hhaf004_supplementary_data.pdf">Internet Appendix</a>
-        <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GL9BIM">Replication Code</a>
+        <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/38/5/10.1093_rfs_hhaf004/3/hhaf004_supplementary_data.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
+        <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GL9BIM" target="_blank" rel="noopener noreferrer">Replication Code</a>
         </div>
         <details>
         <summary>Abstract</summary>
@@ -166,11 +166,11 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20231120">Stereotypes About Successful Entrepreneurs</a></div>
+        <div class="paper-title"><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20231120" target="_blank" rel="noopener noreferrer">Stereotypes About Successful Entrepreneurs</a></div>
         <div class="paper-authors">with Léa Stern</div>
         <div class="paper-venue">AER Papers & Proceedings, 2023</div>
         <div class="paper-links">
-        <a href="https://www.openicpsr.org/openicpsr/project/190484/version/V1/view">Replication Code</a>
+        <a href="https://www.openicpsr.org/openicpsr/project/190484/version/V1/view" target="_blank" rel="noopener noreferrer">Replication Code</a>
         </div>
         <details>
         <summary>Abstract</summary>
@@ -179,12 +179,12 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522">Can Risk be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522" target="_blank" rel="noopener noreferrer">Can Risk be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
         <div class="paper-authors">with Johan Hombert</div>
         <div class="paper-venue">Review of Financial Studies, 2022</div>
         <div class="paper-links">
-        <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/35/12/10.1093_rfs_hhac054/5/hhac054_supplementary_data.pdf">Internet Appendix</a>
-        <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F4ZS5QI">Replication Code</a>
+        <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/35/12/10.1093_rfs_hhac054/5/hhac054_supplementary_data.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
+        <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F4ZS5QI" target="_blank" rel="noopener noreferrer">Replication Code</a>
         </div>
         <details>
         <summary>Abstract</summary>
@@ -193,11 +193,11 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12966">Invoicing Currency and Financial Hedging</a></div>
+        <div class="paper-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12966" target="_blank" rel="noopener noreferrer">Invoicing Currency and Financial Hedging</a></div>
         <div class="paper-authors">with Julien Martin and Isabelle Méjean</div>
         <div class="paper-venue">Journal of Money, Credit and Banking, 2022</div>
         <div class="paper-links">
-        <a href="http://www.julienmartin.eu/papers/hedgingweb_appendix.pdf">Internet Appendix</a>
+        <a href="http://www.julienmartin.eu/papers/hedgingweb_appendix.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
         </div>
         <details>
         <summary>Abstract</summary>
@@ -208,7 +208,7 @@ sections:
         <div class="subsection-header">Working Papers</div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4035930">Machine Learning About Venture Capital Choices</a></div>
+        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4035930" target="_blank" rel="noopener noreferrer">Machine Learning About Venture Capital Choices</a></div>
         <div class="paper-authors">with Léa Stern</div>
         <div class="paper-venue"><span class="venue-status">R&R at Review of Financial Studies</span></div>
         <details>
@@ -218,7 +218,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5261089">New Business Formation and Superstar Firms: New Evidence From France</a></div>
+        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5261089" target="_blank" rel="noopener noreferrer">New Business Formation and Superstar Firms: New Evidence From France</a></div>
         <div class="paper-authors">with Jack Liebersohn</div>
         <div class="paper-venue"><span class="venue-status">May 2025</span></div>
         <details>
@@ -228,7 +228,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325540">What do Early Stage Investors Ask? An LLM Analysis of Expert Calls</a></div>
+        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325540" target="_blank" rel="noopener noreferrer">What do Early Stage Investors Ask? An LLM Analysis of Expert Calls</a></div>
         <div class="paper-authors">with Amin Shams and Shaojun Zhang</div>
         <div class="paper-venue"><span class="venue-status">June 2025</span></div>
         <details>
