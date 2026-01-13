@@ -40,10 +40,30 @@ sections:
         .bio-contact { margin-top: 1rem; font-size: 1.1rem; }
         .bio-contact a { color: #00274C; text-decoration: none; }
 
-        /* Responsive */
+        /* Responsive - mobile */
         @media (max-width: 600px) {
           .bio-container { flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; }
           .bio-buttons { justify-content: center; }
+        }
+
+        /* Desktop - slightly smaller fonts */
+        @media (min-width: 1024px) {
+          .bio-name { font-size: 2.2rem; }
+          .bio-title { font-size: 1.2rem; }
+          .bio-affiliation { font-size: 1.05rem; }
+          .bio-text { font-size: 1rem; }
+          .bio-btn { font-size: 0.95rem; }
+          .bio-contact { font-size: 0.95rem; }
+          .section-title { font-size: 1.6rem; }
+          .subsection-header { font-size: 1.2rem; }
+          .paper-title { font-size: 1.1rem; }
+          .paper-authors { font-size: 0.95rem; }
+          .paper-venue { font-size: 0.95rem; }
+          .paper-links { font-size: 0.85rem; }
+          details summary { font-size: 0.85rem; }
+          details p { font-size: 0.9rem; }
+          .teaching-school { font-size: 1.1rem; }
+          .teaching-courses li { font-size: 0.95rem; }
         }
 
         /* Section styling - consistent throughout */
