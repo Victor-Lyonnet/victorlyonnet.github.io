@@ -48,12 +48,12 @@ sections:
 
         /* Desktop - smaller fonts */
         @media (min-width: 1024px) {
-          .bio-name { font-size: 1.6rem; }
-          .bio-title { font-size: 0.92rem; }
-          .bio-affiliation { font-size: 0.85rem; }
-          .bio-text { font-size: 0.82rem; }
-          .bio-btn { font-size: 0.78rem; padding: 0.4rem 1rem; }
-          .bio-contact { font-size: 0.78rem; }
+          .bio-name { font-size: 1.8rem; }
+          .bio-title { font-size: 1rem; }
+          .bio-affiliation { font-size: 0.95rem; }
+          .bio-text { font-size: 0.9rem; }
+          .bio-btn { font-size: 0.85rem; padding: 0.45rem 1.1rem; }
+          .bio-contact { font-size: 0.85rem; }
           .section-title { font-size: 1.2rem; }
           .subsection-header { font-size: 0.92rem; }
           .paper-title { font-size: 0.85rem; }
