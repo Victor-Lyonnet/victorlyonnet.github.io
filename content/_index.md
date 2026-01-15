@@ -54,16 +54,16 @@ sections:
           .bio-text { font-size: 1rem; }
           .bio-btn { font-size: 1rem; padding: 0.5rem 1.2rem; }
           .bio-contact { font-size: 1rem; }
-          .section-title { font-size: 1.2rem; }
-          .subsection-header { font-size: 0.92rem; }
-          .paper-title { font-size: 0.85rem; }
-          .paper-authors { font-size: 0.78rem; }
-          .paper-venue { font-size: 0.78rem; }
-          .paper-links { font-size: 0.72rem; }
-          details summary { font-size: 0.72rem; }
-          details p { font-size: 0.75rem; }
-          .teaching-school { font-size: 0.85rem; }
-          .teaching-courses li { font-size: 0.78rem; }
+          .section-title { font-size: 1.08rem; }
+          .subsection-header { font-size: 0.83rem; }
+          .paper-title { font-size: 0.77rem; }
+          .paper-authors { font-size: 0.7rem; }
+          .paper-venue { font-size: 0.7rem; }
+          .paper-links { font-size: 0.65rem; }
+          details summary { font-size: 0.65rem; }
+          details p { font-size: 0.68rem; }
+          .teaching-school { font-size: 0.77rem; }
+          .teaching-courses li { font-size: 0.7rem; }
         }
 
         /* Section styling - consistent throughout */
