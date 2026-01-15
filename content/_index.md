@@ -51,9 +51,9 @@ sections:
           .bio-name { font-size: 1.8rem; }
           .bio-title { font-size: 1rem; }
           .bio-affiliation { font-size: 0.95rem; }
-          .bio-text { font-size: 0.9rem; }
-          .bio-btn { font-size: 0.85rem; padding: 0.45rem 1.1rem; }
-          .bio-contact { font-size: 0.85rem; }
+          .bio-text { font-size: 1rem; }
+          .bio-btn { font-size: 1rem; padding: 0.5rem 1.2rem; }
+          .bio-contact { font-size: 1rem; }
           .section-title { font-size: 1.2rem; }
           .subsection-header { font-size: 0.92rem; }
           .paper-title { font-size: 0.85rem; }
