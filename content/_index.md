@@ -84,22 +84,22 @@ sections:
 
         /* Desktop - smaller fonts (MUST be at end to override base styles) */
         @media (min-width: 1024px) {
-          .bio-name { font-size: 1.8rem; }
-          .bio-title { font-size: 1rem; }
-          .bio-affiliation { font-size: 0.95rem; }
-          .bio-text { font-size: 1rem; }
-          .bio-btn { font-size: 1rem; padding: 0.5rem 1.2rem; }
-          .bio-contact { font-size: 1rem; }
-          .section-title { font-size: 1.08rem; }
-          .subsection-header { font-size: 0.83rem; }
-          .paper-title { font-size: 0.77rem; }
-          .paper-authors { font-size: 0.7rem; }
-          .paper-venue { font-size: 0.7rem; }
-          .paper-links { font-size: 0.65rem; }
-          details summary { font-size: 0.65rem; }
-          details p { font-size: 0.68rem; }
-          .teaching-school { font-size: 0.77rem; }
-          .teaching-courses li { font-size: 0.7rem !important; }
+          .bio-name { font-size: 1.8rem !important; }
+          .bio-title { font-size: 1rem !important; }
+          .bio-affiliation { font-size: 0.95rem !important; }
+          .bio-text { font-size: 1rem !important; }
+          .bio-btn { font-size: 1rem !important; padding: 0.5rem 1.2rem; }
+          .bio-contact { font-size: 1rem !important; }
+          .section-title { font-size: 1.2rem !important; }
+          .subsection-header { font-size: 0.95rem !important; }
+          .paper-title { font-size: 0.9rem !important; }
+          .paper-authors { font-size: 0.82rem !important; }
+          .paper-venue { font-size: 0.82rem !important; }
+          .paper-links { font-size: 0.75rem !important; }
+          details summary { font-size: 0.75rem !important; }
+          details p { font-size: 0.78rem !important; }
+          .teaching-school { font-size: 0.9rem !important; }
+          .teaching-courses li { font-size: 0.82rem !important; }
         }
         </style>
 
