@@ -46,26 +46,6 @@ sections:
           .bio-buttons { justify-content: center; }
         }
 
-        /* Desktop - smaller fonts */
-        @media (min-width: 1024px) {
-          .bio-name { font-size: 1.8rem; }
-          .bio-title { font-size: 1rem; }
-          .bio-affiliation { font-size: 0.95rem; }
-          .bio-text { font-size: 1rem; }
-          .bio-btn { font-size: 1rem; padding: 0.5rem 1.2rem; }
-          .bio-contact { font-size: 1rem; }
-          .section-title { font-size: 1.08rem; }
-          .subsection-header { font-size: 0.83rem; }
-          .paper-title { font-size: 0.77rem; }
-          .paper-authors { font-size: 0.7rem; }
-          .paper-venue { font-size: 0.7rem; }
-          .paper-links { font-size: 0.65rem; }
-          details summary { font-size: 0.65rem; }
-          details p { font-size: 0.68rem; }
-          .teaching-school { font-size: 0.77rem; }
-          .teaching-courses li { font-size: 0.7rem; }
-        }
-
         /* Section styling - consistent throughout */
         .section-container { width: 100%; max-width: 950px; margin: 0 auto; padding: 1.5rem 1.5rem; }
         
@@ -101,6 +81,26 @@ sections:
         .teaching-school { font-weight: 600; font-size: 1.25rem; color: #00274C; margin-bottom: 0.35rem; }
         .teaching-courses { margin: 0; padding-left: 1.3rem; }
         .teaching-courses li { margin-bottom: 0.25rem; font-size: 1.1rem !important; color: #333; }
+
+        /* Desktop - smaller fonts (MUST be at end to override base styles) */
+        @media (min-width: 1024px) {
+          .bio-name { font-size: 1.8rem; }
+          .bio-title { font-size: 1rem; }
+          .bio-affiliation { font-size: 0.95rem; }
+          .bio-text { font-size: 1rem; }
+          .bio-btn { font-size: 1rem; padding: 0.5rem 1.2rem; }
+          .bio-contact { font-size: 1rem; }
+          .section-title { font-size: 1.08rem; }
+          .subsection-header { font-size: 0.83rem; }
+          .paper-title { font-size: 0.77rem; }
+          .paper-authors { font-size: 0.7rem; }
+          .paper-venue { font-size: 0.7rem; }
+          .paper-links { font-size: 0.65rem; }
+          details summary { font-size: 0.65rem; }
+          details p { font-size: 0.68rem; }
+          .teaching-school { font-size: 0.77rem; }
+          .teaching-courses li { font-size: 0.7rem !important; }
+        }
         </style>
 
         <div class="bio-container">
