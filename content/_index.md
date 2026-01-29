@@ -143,7 +143,7 @@ sections:
 
         <div class="paper-entry">
         <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228" target="_blank" rel="noopener noreferrer">Why do Traditional and Shadow Banks Coexist?</a></div>
-        <div class="paper-authors">with Edouard Chrétien</div>
+        <div class="paper-authors">Lead author, with Edouard Chrétien</div>
         <div class="paper-venue">Review of Financial Studies <span class="venue-status">(forthcoming)</span></div>
         <details>
         <summary>Abstract</summary>
