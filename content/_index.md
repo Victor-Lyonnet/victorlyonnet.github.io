@@ -28,78 +28,84 @@ sections:
         .bio-photo { flex-shrink: 0; }
         .bio-photo img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center 20%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
         .bio-content { flex: 1; }
-        .bio-name { font-size: 2.5rem; font-weight: 700; color: #00274C; margin: 0 0 0.25rem 0; }
-        .bio-title { font-size: 1.4rem; color: #555; margin: 0 0 0.5rem 0; }
-        .bio-affiliation { font-size: 1.2rem; color: #666; margin: 0 0 1rem 0; }
+        .bio-name { font-size: 2.2rem; font-weight: 700; color: #00274C; margin: 0 0 0.25rem 0; }
+        .bio-title { font-size: 1.2rem; color: #444; margin: 0 0 0.5rem 0; }
+        .bio-affiliation { font-size: 1.05rem; color: #555; margin: 0 0 1rem 0; }
         .bio-affiliation a { color: #00274C; text-decoration: none; }
-        .bio-text { font-size: 1.15rem; line-height: 1.6; color: #333; }
+        .bio-text { font-size: 1rem; line-height: 1.65; color: #333; }
         .bio-text p { margin: 0 0 0.75rem 0; }
         .bio-buttons { margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
-        .bio-btn { display: inline-block; padding: 0.6rem 1.4rem; background: #00274C; color: white !important; text-decoration: none; border-radius: 4px; font-size: 1.1rem; font-weight: 500; }
+        .bio-btn { display: inline-block; padding: 0.55rem 1.3rem; background: #00274C; color: white !important; text-decoration: none; border-radius: 4px; font-size: 0.95rem; font-weight: 500; }
         .bio-btn:hover { background: #001a33; }
-        .bio-contact { margin-top: 1rem; font-size: 1.1rem; }
+        .bio-contact { margin-top: 1rem; font-size: 0.95rem; }
         .bio-contact a { color: #00274C; text-decoration: none; }
 
         /* Responsive - mobile */
         @media (max-width: 600px) {
           .bio-container { flex-direction: column; align-items: center; text-align: center; padding: 0.5rem 1rem 1.5rem 1rem; }
           .bio-buttons { justify-content: center; }
+          .bio-name { font-size: 2rem; }
+          .bio-title { font-size: 1.1rem; }
+          .bio-affiliation { font-size: 1rem; }
+          .bio-text { font-size: 1rem; }
         }
 
         /* Section styling - consistent throughout */
         .section-container { width: 100%; max-width: 950px; margin: 0 auto; padding: 1.5rem 1.5rem; }
-        
+
         /* Force prose containers to be full width */
         .prose {
           max-width: 950px !important;
           width: 100% !important;
         }
-        .section-title { font-size: 1.85rem; font-weight: 600; color: #00274C; margin: 0 0 1rem 0; padding-bottom: 0.4rem; border-bottom: 3px solid #FFCB05; }
+        .section-title { font-size: 1.5rem; font-weight: 600; color: #00274C; margin: 0 0 1rem 0; padding-bottom: 0.4rem; border-bottom: 3px solid #FFCB05; }
 
         /* Paper styling */
-        .paper-entry { margin-bottom: 1.1rem; padding-bottom: 0.85rem; border-bottom: 1px solid #eee; }
-        .paper-title { font-weight: 600; font-size: 1.25rem; color: #00274C; }
+        .paper-entry { margin-bottom: 1rem; padding-bottom: 0.85rem; border-bottom: 1px solid #eee; }
+        .paper-title { font-weight: 600; font-size: 1.05rem; color: #00274C; line-height: 1.4; }
         .paper-title::before { content: "•"; margin-right: 0.5rem; color: #00274C; }
         .paper-title a { color: #00274C; text-decoration: none; }
         .paper-title a:hover { color: #FFCB05; }
-        .paper-authors { color: #555; font-size: 1.1rem; margin: 0.2rem 0; }
-        .paper-venue { font-size: 1.1rem; margin: 0.2rem 0; font-style: italic; font-weight: 600; color: #444; }
-        .paper-venue .venue-status { font-style: normal; color: #666; }
-        .paper-links { margin-top: 0.4rem; font-size: 1rem; }
+        .paper-authors { color: #444; font-size: 0.92rem; margin: 0.25rem 0; line-height: 1.5; }
+        .paper-venue { font-size: 0.92rem; margin: 0.25rem 0; font-weight: 700; color: #B38B00; line-height: 1.5; }
+        .paper-venue .venue-name { font-style: normal; }
+        .paper-venue .venue-year { color: #555; font-weight: 400; margin-left: 0.15rem; }
+        .paper-venue .venue-status { font-style: italic; color: #666; font-weight: 500; }
+        .paper-links { margin-top: 0.4rem; font-size: 0.85rem; }
         .paper-links a { color: #00274C; margin-right: 0.75rem; text-decoration: none; border-bottom: 1px dotted #00274C; }
         .paper-links a:hover { color: #FFCB05; }
         details { margin-top: 0.4rem; }
-        details summary { cursor: pointer; color: #00274C; font-size: 1rem; font-weight: 500; }
+        details summary { cursor: pointer; color: #00274C; font-size: 0.85rem; font-weight: 500; }
         details summary:hover { color: #FFCB05; }
         details[open] summary { margin-bottom: 0.35rem; }
-        details p { margin: 0; font-size: 1.05rem; color: #444; padding-left: 0.75rem; border-left: 2px solid #FFCB05; }
-        .subsection-header { font-size: 1.35rem; font-weight: 600; color: #00274C; margin: 2.5rem 0 0.85rem 0; }
-        .subsection-header:first-of-type { margin-top: 0; }  /* No extra margin for first subsection (Publications) */
+        details p { margin: 0; font-size: 0.88rem; color: #444; padding-left: 0.75rem; border-left: 2px solid #FFCB05; line-height: 1.6; }
+        .subsection-header { font-size: 1.15rem; font-weight: 600; color: #00274C; margin: 2rem 0 0.75rem 0; }
+        .subsection-header:first-of-type { margin-top: 0; }
 
         /* Teaching styling */
-        .teaching-section { margin-bottom: 1.1rem; }
-        .teaching-school { font-weight: 600; font-size: 1.25rem; color: #00274C; margin-bottom: 0.35rem; }
+        .teaching-section { margin-bottom: 1rem; }
+        .teaching-school { font-weight: 600; font-size: 1.05rem; color: #00274C; margin-bottom: 0.3rem; }
         .teaching-courses { margin: 0; padding-left: 1.3rem; }
-        .teaching-courses li { margin-bottom: 0.25rem; font-size: 1.1rem !important; color: #333; }
+        .teaching-courses li { margin-bottom: 0.2rem; font-size: 0.92rem; color: #333; line-height: 1.5; }
 
-        /* Desktop - smaller fonts (MUST be at end to override base styles) */
+        /* Desktop - slightly smaller fonts */
         @media (min-width: 1024px) {
-          .bio-name { font-size: 1.8rem !important; }
-          .bio-title { font-size: 1rem !important; }
-          .bio-affiliation { font-size: 0.95rem !important; }
-          .bio-text { font-size: 1rem !important; }
-          .bio-btn { font-size: 1rem !important; padding: 0.5rem 1.2rem; }
-          .bio-contact { font-size: 1rem !important; }
-          .section-title { font-size: 1.2rem !important; }
-          .subsection-header { font-size: 0.95rem !important; }
-          .paper-title { font-size: 0.9rem !important; }
-          .paper-authors { font-size: 0.82rem !important; }
-          .paper-venue { font-size: 0.82rem !important; }
-          .paper-links { font-size: 0.75rem !important; }
-          details summary { font-size: 0.75rem !important; }
-          details p { font-size: 0.78rem !important; }
-          .teaching-school { font-size: 0.9rem !important; }
-          .teaching-courses li { font-size: 0.82rem !important; }
+          .bio-name { font-size: 1.9rem; }
+          .bio-title { font-size: 1.05rem; }
+          .bio-affiliation { font-size: 0.95rem; }
+          .bio-text { font-size: 0.95rem; }
+          .bio-btn { font-size: 0.9rem; padding: 0.5rem 1.2rem; }
+          .bio-contact { font-size: 0.9rem; }
+          .section-title { font-size: 1.35rem; }
+          .subsection-header { font-size: 1.05rem; }
+          .paper-title { font-size: 0.98rem; }
+          .paper-authors { font-size: 0.88rem; }
+          .paper-venue { font-size: 0.88rem; }
+          .paper-links { font-size: 0.8rem; }
+          details summary { font-size: 0.8rem; }
+          details p { font-size: 0.85rem; }
+          .teaching-school { font-size: 0.98rem; }
+          .teaching-courses li { font-size: 0.88rem; }
         }
         </style>
 
@@ -112,7 +118,7 @@ sections:
             <p class="bio-title">Assistant Professor of Finance</p>
             <p class="bio-affiliation" style="color: #00274C;">University of Michigan Ross School of Business</p>
             <div class="bio-text">
-              <p>I am an Assistant Professor of Finance at the University of Michigan Ross School of Business, where I hold the Michael R. and Mary Kay Hallman Fellowship.</p>
+              <p>I am an Assistant Professor of Finance at the University of Michigan Ross School of Business, and a Michael R. and Mary Kay Hallman fellow.</p>
               <p>I received my PhD in economics from École Polytechnique (France).</p>
               <p>My research interests include entrepreneurship, financial intermediation, corporate finance, and insurance.</p>
             </div>
@@ -144,7 +150,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228" target="_blank" rel="noopener noreferrer">Why do Traditional and Shadow Banks Coexist?</a></div>
         <div class="paper-authors">Lead author, with Edouard Chrétien</div>
-        <div class="paper-venue">Review of Financial Studies <span class="venue-status">(forthcoming)</span></div>
+        <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span> <span class="venue-status">(forthcoming)</span></div>
         <details>
         <summary>Abstract</summary>
         <p>Traditional and shadow banks interacted in similar ways in the 2007 and COVID-19 crises, when both assets and liabilities flew out of shadow banks and into traditional banks. We explain these facts in a model of the coexistence of traditional and shadow banks in which liabilities and assets flow from the former to the latter in good times, avoiding regulation, and move the other way in a crisis, alleviating fire sales. The model sheds light on how regulations for traditional banks have (unintended) consequences on the shadow banking sector.</p>
@@ -154,7 +160,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhaf004/7965908" target="_blank" rel="noopener noreferrer">Build or Buy? Human Capital and Corporate Diversification</a></div>
         <div class="paper-authors">with Paul Beaumont and Camille Hébert</div>
-        <div class="paper-venue">Review of Financial Studies, 2025</div>
+        <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-year">, 2025</span></div>
         <div class="paper-links">
         <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/38/5/10.1093_rfs_hhaf004/3/hhaf004_supplementary_data.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
         <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GL9BIM" target="_blank" rel="noopener noreferrer">Replication Code</a>
@@ -168,7 +174,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20231120" target="_blank" rel="noopener noreferrer">Stereotypes About Successful Entrepreneurs</a></div>
         <div class="paper-authors">with Léa Stern</div>
-        <div class="paper-venue">AER Papers & Proceedings, 2023</div>
+        <div class="paper-venue"><span class="venue-name">AER Papers & Proceedings</span><span class="venue-year">, 2023</span></div>
         <div class="paper-links">
         <a href="https://www.openicpsr.org/openicpsr/project/190484/version/V1/view" target="_blank" rel="noopener noreferrer">Replication Code</a>
         </div>
@@ -181,7 +187,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522" target="_blank" rel="noopener noreferrer">Can Risk be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
         <div class="paper-authors">with Johan Hombert</div>
-        <div class="paper-venue">Review of Financial Studies, 2022</div>
+        <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-year">, 2022</span></div>
         <div class="paper-links">
         <a href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/35/12/10.1093_rfs_hhac054/5/hhac054_supplementary_data.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
         <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F4ZS5QI" target="_blank" rel="noopener noreferrer">Replication Code</a>
@@ -195,7 +201,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12966" target="_blank" rel="noopener noreferrer">Invoicing Currency and Financial Hedging</a></div>
         <div class="paper-authors">with Julien Martin and Isabelle Méjean</div>
-        <div class="paper-venue">Journal of Money, Credit and Banking, 2022</div>
+        <div class="paper-venue"><span class="venue-name">Journal of Money, Credit and Banking</span><span class="venue-year">, 2022</span></div>
         <div class="paper-links">
         <a href="http://www.julienmartin.eu/papers/hedgingweb_appendix.pdf" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
         </div>
@@ -210,7 +216,7 @@ sections:
         <div class="paper-entry">
         <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4035930" target="_blank" rel="noopener noreferrer">Machine Learning About Venture Capital Choices</a></div>
         <div class="paper-authors">with Léa Stern</div>
-        <div class="paper-venue"><span class="venue-status">R&R at Review of Financial Studies</span></div>
+        <div class="paper-venue"><span class="venue-status">R&R at </span><span class="venue-name">Review of Financial Studies</span></div>
         <details>
         <summary>Abstract</summary>
         <p>We study early-stage venture capitalists' (VCs) decisions through the lens of a predictive model of venture success. Using French administrative data on VC-backed and non-VC-backed companies, we find that VCs invest in some companies that perform predictably poorly and pass on others that perform predictably well. VCs tend to select entrepreneurs whose features are representative of success—such as being male, graduates of elite schools, and based in Paris. Although entrepreneurs with these characteristics exhibit higher success rates, VCs exaggerate the importance of these features relative to their impact on performance, contributing to the narrowness of the VC industry.</p>
