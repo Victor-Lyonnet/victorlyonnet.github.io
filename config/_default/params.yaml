@@ -104,4 +104,4 @@ hugoblox:
     enable: false
 
   pro:
-    hide_attribution: false
+    hide_attribution: true
