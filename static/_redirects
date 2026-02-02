@@ -1,0 +1,41 @@
+# Netlify redirects for removed content sections
+# These redirect old URLs to the homepage after site restructuring
+# Documentation: https://docs.netlify.com/routing/redirects/
+
+# Blog section (removed)
+/blog/*                         /       301
+/blog                           /       301
+
+# Publications section (removed)
+/publications/*                 /       301
+/publications                   /       301
+/publication/*                  /       301
+/publication                    /       301
+
+# Projects section (removed)
+/projects/*                     /       301
+/projects                       /       301
+/project/*                      /       301
+/project                        /       301
+
+# Courses section (removed)
+/courses/*                      /       301
+/courses                        /       301
+
+# Events section (removed)
+/events/*                       /       301
+/events                         /       301
+/event/*                        /       301
+/event                          /       301
+
+# Slides section (removed)
+/slides/*                       /       301
+/slides                         /       301
+
+# Experience page (removed)
+/experience                     /       301
+/experience/                    /       301
+
+# Authors section (redirect to homepage)
+/authors/*                      /       301
+/authors                        /       301
