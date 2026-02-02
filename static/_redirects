@@ -40,13 +40,5 @@
 /authors/*                      /       301
 /authors                        /       301
 
-# Section anchors - redirect to homepage with anchor
-/research                       /#research      301
-/research/                      /#research      301
-/teaching                       /#teaching      301
-/teaching/                      /#teaching      301
-/about                          /#about         301
-/about/                         /#about         301
-
 # Catch-all: redirect any unknown path to homepage
 /*                              /               301
