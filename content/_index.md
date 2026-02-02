@@ -1,6 +1,6 @@
 ---
-title: ''
-summary: ''
+title: 'Victor Lyonnet | Assistant Professor of Finance'
+summary: 'Victor Lyonnet is an Assistant Professor of Finance at the University of Michigan Ross School of Business. His research focuses on entrepreneurship, financial intermediation, corporate finance, and insurance.'
 date: 2024-01-01
 type: landing
 
