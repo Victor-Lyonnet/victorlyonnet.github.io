@@ -1,3 +1,7 @@
+# Default Open Graph / Twitter sharing image
+images:
+  - /media/og-image.png
+
 # HugoBlox Configuration
 hugoblox:
   schema: "2.0"

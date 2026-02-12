@@ -159,7 +159,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhaf004/7965908" target="_blank" rel="noopener noreferrer">Build or Buy? Human Capital and Corporate Diversification</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/article/38/5/1333/7965908" target="_blank" rel="noopener noreferrer">Build or Buy? Human Capital and Corporate Diversification</a></div>
         <div class="paper-authors">with Paul Beaumont and Camille Hébert</div>
         <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-year">, 2025</span></div>
         <div class="paper-links">
@@ -186,7 +186,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522" target="_blank" rel="noopener noreferrer">Can Risk Be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/article/35/12/5387/6674522" target="_blank" rel="noopener noreferrer">Can Risk Be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
         <div class="paper-authors">with Johan Hombert</div>
         <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-year">, 2022</span></div>
         <div class="paper-links">

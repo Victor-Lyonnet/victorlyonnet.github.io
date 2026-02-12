@@ -1,4 +1,6 @@
 # Navigation Links
+# Note: Header navbar is disabled (params.yaml header.enable: false).
+# These are kept for anchor reference and in case the navbar is re-enabled.
 main:
   - name: About
     url: /

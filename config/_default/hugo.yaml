@@ -17,12 +17,6 @@ removePathAccents: true
 ## PAGE OPTIONS
 ############################
 
-cascade:
-  - _target:
-      path: /slides/**
-      kind: page
-    outputs: [HTML, present]
-
 ############################
 ## ADVANCED
 ############################
@@ -49,7 +43,6 @@ timeout: 600000
 taxonomies:
   author: authors
   tag: tags
-  publication_type: publication_types
 markup:
   _merge: deep
   highlight:
