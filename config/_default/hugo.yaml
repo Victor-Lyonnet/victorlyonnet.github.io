@@ -29,13 +29,12 @@ cascade:
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10
 enableEmoji: false
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:

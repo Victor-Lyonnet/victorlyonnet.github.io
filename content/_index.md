@@ -81,6 +81,7 @@ sections:
         details p { margin: 0; font-size: 0.88rem; color: #444; padding-left: 0.75rem; border-left: 2px solid #FFCB05; line-height: 1.6; }
         .subsection-header { font-size: 1.15rem; font-weight: 600; color: #00274C; margin: 2rem 0 0.75rem 0; }
         .subsection-header:first-of-type { margin-top: 0; }
+        .subsection-header.wip { margin-top: 2rem; }
 
         /* Teaching styling */
         .teaching-section { margin-bottom: 1rem; }
@@ -148,9 +149,9 @@ sections:
         <div class="subsection-header">Publications</div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228" target="_blank" rel="noopener noreferrer">Why do Traditional and Shadow Banks Coexist?</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf086/8287228" target="_blank" rel="noopener noreferrer">Why Do Traditional and Shadow Banks Coexist?</a></div>
         <div class="paper-authors">Lead author, with Edouard Chrétien</div>
-        <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span> <span class="venue-status">(forthcoming)</span></div>
+        <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-status"> (forthcoming)</span></div>
         <details>
         <summary>Abstract</summary>
         <p>Traditional and shadow banks interacted in similar ways in the 2007 and COVID-19 crises, when both assets and liabilities flew out of shadow banks and into traditional banks. We explain these facts in a model of the coexistence of traditional and shadow banks in which liabilities and assets flow from the former to the latter in good times, avoiding regulation, and move the other way in a crisis, alleviating fire sales. The model sheds light on how regulations for traditional banks have (unintended) consequences on the shadow banking sector.</p>
@@ -185,7 +186,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522" target="_blank" rel="noopener noreferrer">Can Risk be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
+        <div class="paper-title"><a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhac054/6674522" target="_blank" rel="noopener noreferrer">Can Risk Be Shared Across Investor Cohorts? Evidence from a Popular Savings Product</a></div>
         <div class="paper-authors">with Johan Hombert</div>
         <div class="paper-venue"><span class="venue-name">Review of Financial Studies</span><span class="venue-year">, 2022</span></div>
         <div class="paper-links">
@@ -234,7 +235,7 @@ sections:
         </div>
 
         <div class="paper-entry">
-        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325540" target="_blank" rel="noopener noreferrer">What do Early Stage Investors Ask? An LLM Analysis of Expert Calls</a></div>
+        <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325540" target="_blank" rel="noopener noreferrer">What Do Early-Stage Investors Ask? An LLM Analysis of Expert Calls</a></div>
         <div class="paper-authors">with Amin Shams and Shaojun Zhang</div>
         <div class="paper-venue"><span class="venue-status">June 2025</span></div>
         <details>

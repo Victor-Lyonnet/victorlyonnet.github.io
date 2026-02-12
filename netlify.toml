@@ -1,7 +1,7 @@
 [build]
   command = """
     set -e
-    echo "=== Starting Blog build process ==="
+    echo "=== Starting Academic CV build process ==="
     echo "Node version: $(node --version)"
     echo "pnpm version: $(pnpm --version)"
     echo "Hugo version: $(hugo version)"
@@ -12,9 +12,6 @@
     
     echo "=== Running Hugo build ==="
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
-    
-    echo "=== Running Pagefind indexing ==="
-    pnpm run pagefind
     
     echo "=== Build completed successfully ==="
   """
@@ -42,7 +39,6 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose --no-frozen-lockfile
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind
   """
 
 [context.branch-deploy]
@@ -52,7 +48,6 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose --no-frozen-lockfile
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind
   """
 
 [[plugins]]
