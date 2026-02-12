@@ -1,0 +1,77 @@
+<!-- Paper Entry Template
+     Copy the appropriate variant and fill in the {{PLACEHOLDERS}}.
+     Insert into content/_index.md under the correct subsection header.
+-->
+
+<!-- VARIANT 1: Published paper (with year) -->
+<div class="paper-entry">
+<div class="paper-title"><a href="{{PAPER_URL}}" target="_blank" rel="noopener noreferrer">{{TITLE}}</a></div>
+<div class="paper-authors">{{AUTHOR_PREFIX}}{{COAUTHORS}}</div>
+<div class="paper-venue"><span class="venue-name">{{JOURNAL}}</span><span class="venue-year">, {{YEAR}}</span></div>
+<div class="paper-links">
+<a href="{{APPENDIX_URL}}" target="_blank" rel="noopener noreferrer">Internet Appendix</a>
+<a href="{{CODE_URL}}" target="_blank" rel="noopener noreferrer">Replication Code</a>
+</div>
+<details>
+<summary>Abstract</summary>
+<p>{{ABSTRACT}}</p>
+</details>
+</div>
+
+<!-- VARIANT 2: Forthcoming paper -->
+<div class="paper-entry">
+<div class="paper-title"><a href="{{PAPER_URL}}" target="_blank" rel="noopener noreferrer">{{TITLE}}</a></div>
+<div class="paper-authors">{{AUTHOR_PREFIX}}{{COAUTHORS}}</div>
+<div class="paper-venue"><span class="venue-name">{{JOURNAL}}</span> <span class="venue-status">(forthcoming)</span></div>
+<details>
+<summary>Abstract</summary>
+<p>{{ABSTRACT}}</p>
+</details>
+</div>
+
+<!-- VARIANT 3: Working paper with R&R -->
+<div class="paper-entry">
+<div class="paper-title"><a href="{{PAPER_URL}}" target="_blank" rel="noopener noreferrer">{{TITLE}}</a></div>
+<div class="paper-authors">{{AUTHOR_PREFIX}}{{COAUTHORS}}</div>
+<div class="paper-venue"><span class="venue-status">R&R at </span><span class="venue-name">{{JOURNAL}}</span></div>
+<details>
+<summary>Abstract</summary>
+<p>{{ABSTRACT}}</p>
+</details>
+</div>
+
+<!-- VARIANT 4: Working paper with date -->
+<div class="paper-entry">
+<div class="paper-title"><a href="{{PAPER_URL}}" target="_blank" rel="noopener noreferrer">{{TITLE}}</a></div>
+<div class="paper-authors">{{AUTHOR_PREFIX}}{{COAUTHORS}}</div>
+<div class="paper-venue"><span class="venue-status">{{MONTH}} {{YEAR}}</span></div>
+<details>
+<summary>Abstract</summary>
+<p>{{ABSTRACT}}</p>
+</details>
+</div>
+
+<!-- VARIANT 5: Work in Progress (minimal) -->
+<div class="paper-entry" style="border-bottom: none;">
+<div class="paper-title">{{TITLE}}</div>
+</div>
+
+<!--
+PLACEHOLDERS:
+  {{TITLE}}         — Full paper title
+  {{PAPER_URL}}     — Link to journal page or SSRN
+  {{AUTHOR_PREFIX}} — "Lead author, with " or "with "
+  {{COAUTHORS}}     — "Firstname Lastname and Firstname Lastname"
+  {{JOURNAL}}       — Full journal name (e.g., "Review of Financial Studies")
+  {{YEAR}}          — Publication year (e.g., "2025")
+  {{MONTH}}         — Month for working papers (e.g., "May")
+  {{APPENDIX_URL}}  — Internet Appendix link (omit div if none)
+  {{CODE_URL}}      — Replication Code link (omit div if none)
+  {{ABSTRACT}}      — Full abstract text
+
+AUTHOR CONVENTION:
+  - Victor Lyonnet's name is NOT listed (implied as author)
+  - "Lead author, with X" when Victor is first author
+  - "with X and Y" otherwise
+  - Omit paper-authors div entirely for solo-authored papers
+-->
